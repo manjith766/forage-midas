@@ -36,7 +36,6 @@ public class TaskFiveTests {
             kafkaProducer.send(transactionLine);
         }
         Thread.sleep(2000);
-
         logger.info("----------------------------------------------------------");
         logger.info("----------------------------------------------------------");
         logger.info("----------------------------------------------------------");
